@@ -13,7 +13,7 @@
 > **[https://www.youtube.com/watch?v=_xx20IiHymo](https://www.youtube.com/watch?v=_xx20IiHymo)**  
 > 
 > 📊 **Project Pitch Deck & Presentation:**  
-> *Available within the live application via the **Hackathon Deck** button in the top navigation.*
+> *(https://docs.google.com/presentation/d/1VkttvbD10XWw5wGXSS2qdT9Nflp6MVt9/edit?usp=drivesdk&ouid=111714202318814544029&rtpof=true&sd=true)*
 
 ---
 
