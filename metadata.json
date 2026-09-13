@@ -1,0 +1,6 @@
+{
+  "name": "Renewable Generation Forecasting Platform",
+  "description": "Precision probabilistic forecasting, BESS dispatch optimization, and CERC compliance for renewable operators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
