@@ -2,11 +2,18 @@
 ### Autonomous Renewable Generation Forecasting & BESS Optimization Platform
 
 [![Live Application](https://img.shields.io/badge/Live%20Demo-SynapseGrid%20OS-10b981?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ais-pre-bxz7kgorugt27pwgmjs7dk-602838473728.asia-southeast1.run.app)
+[![YouTube Video](https://img.shields.io/badge/YouTube%20Demo-Watch%20Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_xx20IiHymo)
 [![Hackathon](https://img.shields.io/badge/DA--IICT-HackOut%20'26-06b6d4?style=for-the-badge)](https://github.com/dasaniakanksha22-max/DAIICT_HackOut-26)
 [![License](https://img.shields.io/badge/License-MIT-amber?style=for-the-badge)](#)
 
-> **Live Web Application URL:**  
-> 🔗 **[https://ais-pre-bxz7kgorugt27pwgmjs7dk-602838473728.asia-southeast1.run.app](https://ais-pre-bxz7kgorugt27pwgmjs7dk-602838473728.asia-southeast1.run.app)**
+> 🔗 **Live Working Application:**  
+> **[https://ais-pre-bxz7kgorugt27pwgmjs7dk-602838473728.asia-southeast1.run.app](https://ais-pre-bxz7kgorugt27pwgmjs7dk-602838473728.asia-southeast1.run.app)**  
+> 
+> 🎥 **YouTube Video Walkthrough & Demo:**  
+> **[https://www.youtube.com/watch?v=_xx20IiHymo](https://www.youtube.com/watch?v=_xx20IiHymo)**  
+> 
+> 📊 **Project Pitch Deck & Presentation:**  
+> *Available within the live application via the **Hackathon Deck** button in the top navigation.*
 
 ---
 
