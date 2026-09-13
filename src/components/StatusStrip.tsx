@@ -67,9 +67,9 @@ export const StatusStrip: React.FC<StatusStripProps> = ({
 
   return (
     <div className={`border-b transition-colors ${
-      isDarkMode ? 'border-slate-800/80 bg-slate-900/60' : 'border-slate-200/70 bg-white'
+      isDarkMode ? 'border-slate-800/80 bg-slate-950/80 backdrop-blur-md' : 'border-slate-200/70 bg-white'
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         
         {/* Left: Role Switcher Segmented Control */}
         <div className="flex items-center gap-3">
@@ -78,49 +78,55 @@ export const StatusStrip: React.FC<StatusStripProps> = ({
           }`}>
             Perspective:
           </span>
-          <div className={`inline-flex items-center p-0.5 rounded-xl border text-xs font-medium ${
+          <div className={`inline-flex items-center p-1 rounded-xl border text-xs font-medium gap-1 ${
             isDarkMode ? 'bg-slate-950 border-slate-800 text-slate-400' : 'bg-slate-100 border-slate-200/70 text-slate-500'
           }`}>
             <button
+              id="role-btn-grid-operator"
               onClick={() => onRoleChange('grid_operator')}
-              className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
+              className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                 currentRole === 'grid_operator'
                   ? isDarkMode
-                    ? 'bg-emerald-500 text-slate-950 font-bold shadow-xs'
-                    : 'bg-white text-slate-900 shadow-xs font-semibold'
+                    ? 'bg-emerald-500 text-slate-950 font-bold shadow-md shadow-emerald-500/20'
+                    : 'bg-white text-emerald-700 shadow-xs font-bold border border-emerald-200'
                   : isDarkMode
-                  ? 'hover:text-white'
-                  : 'hover:text-slate-900'
+                  ? 'hover:text-white hover:bg-slate-900/60'
+                  : 'hover:text-slate-900 hover:bg-white/60'
               }`}
             >
+              <span className={`w-1.5 h-1.5 rounded-full ${currentRole === 'grid_operator' ? 'bg-slate-950' : 'bg-emerald-400'}`} />
               Grid Operator (SLDC)
             </button>
             <button
+              id="role-btn-plant-owner"
               onClick={() => onRoleChange('plant_owner')}
-              className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
+              className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                 currentRole === 'plant_owner'
                   ? isDarkMode
-                    ? 'bg-emerald-500 text-slate-950 font-bold shadow-xs'
-                    : 'bg-white text-slate-900 shadow-xs font-semibold'
+                    ? 'bg-cyan-400 text-slate-950 font-bold shadow-md shadow-cyan-400/20'
+                    : 'bg-white text-cyan-700 shadow-xs font-bold border border-cyan-200'
                   : isDarkMode
-                  ? 'hover:text-white'
-                  : 'hover:text-slate-900'
+                  ? 'hover:text-white hover:bg-slate-900/60'
+                  : 'hover:text-slate-900 hover:bg-white/60'
               }`}
             >
+              <span className={`w-1.5 h-1.5 rounded-full ${currentRole === 'plant_owner' ? 'bg-slate-950' : 'bg-cyan-400'}`} />
               Plant Owner (IPP)
             </button>
             <button
+              id="role-btn-energy-trader"
               onClick={() => onRoleChange('energy_trader')}
-              className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
+              className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                 currentRole === 'energy_trader'
                   ? isDarkMode
-                    ? 'bg-emerald-500 text-slate-950 font-bold shadow-xs'
-                    : 'bg-white text-slate-900 shadow-xs font-semibold'
+                    ? 'bg-amber-400 text-slate-950 font-bold shadow-md shadow-amber-400/20'
+                    : 'bg-white text-amber-700 shadow-xs font-bold border border-amber-200'
                   : isDarkMode
-                  ? 'hover:text-white'
-                  : 'hover:text-slate-900'
+                  ? 'hover:text-white hover:bg-slate-900/60'
+                  : 'hover:text-slate-900 hover:bg-white/60'
               }`}
             >
+              <span className={`w-1.5 h-1.5 rounded-full ${currentRole === 'energy_trader' ? 'bg-slate-950' : 'bg-amber-400'}`} />
               Energy Trader (DAM/RTM)
             </button>
           </div>

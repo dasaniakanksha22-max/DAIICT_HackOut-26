@@ -276,8 +276,8 @@ export default function App() {
             onOpenAiAdvisor={() => setAiAdvisorModalOpen(true)}
           />
 
-          {/* 5. KPI Metrics Row */}
-          <KpiMetricsRow summary={summary} site={selectedSite} isDarkMode={isDarkMode} />
+          {/* 5. KPI Metrics Row (Changes dynamically based on selected Perspective: SLDC vs IPP vs Trader) */}
+          <KpiMetricsRow summary={summary} site={selectedSite} currentRole={currentRole} isDarkMode={isDarkMode} />
 
           {/* Time Machine Playback Controller (Always available to scrub through forecasts) */}
           <TimeMachinePlayer
